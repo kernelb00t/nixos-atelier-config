@@ -10,7 +10,7 @@
     after = [ "network.target" ];
     wantedBy = [ "multi-user.target" ];
     serviceConfig = {
-      ExecStart = "/etc/nixos/fetch-config-and-rebuild.sh";
+      ExecStart = "/etc/nixos/module/fetch-config-and-rebuild.sh";
       Type = "oneshot";
     };
   };
