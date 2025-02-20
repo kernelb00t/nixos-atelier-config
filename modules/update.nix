@@ -16,5 +16,5 @@
   };
 
   # Include the script in the NixOS system closure
-  environment.etc."nixos/fetch-config-and-rebuild.sh".source = ./fetch-config-and-rebuild.sh;
+  environment.etc."nixos/modules/fetch-config-and-rebuild.sh".source = ./fetch-config-and-rebuild.sh;
 }
